@@ -19,12 +19,12 @@ export const isEqual = <T extends any>(valA: T, valB: any): valB is T => {
       }
 
       return false;
-    case 'string':
-    case 'symbol':
-    case 'bigint':
-    case 'boolean':
-    case 'number':
-    case 'undefined':
+    // case 'string':
+    // case 'symbol':
+    // case 'bigint':
+    // case 'boolean':
+    // case 'number':
+    // case 'undefined':
     default:
       return valA === valB;
   }
